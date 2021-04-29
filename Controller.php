@@ -16,6 +16,6 @@ echo "<h1> This is the combined path: $jpath</h1>";
 
 $obj = new Sas;
 $sasi = $obj->sassy($_POST['sastry']);
-echo "<h1> Is your Sastry Number a perfect square? - $sasi </h1>";
+echo "<h1> Is your Sastry Number a perfect square? $sasi </h1>";
 
 ?>

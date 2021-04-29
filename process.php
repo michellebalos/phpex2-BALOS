@@ -49,11 +49,11 @@ class Sas
             do{
                 if ($sn == floor($sn))
                 {
-                    return "TRUE, $sn is a perfect square.";
+                    return "- TRUE, $sn is a perfect square.";
                 }
                 else
                 {
-                    return "FALSE, $sn is not perfect square.";
+                    return "- FALSE, $sn is not perfect square.";
                 }
             }
             while($sn = sqrt($sn));

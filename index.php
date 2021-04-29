@@ -10,7 +10,6 @@
         <h2>Finding the maximum range of a triangle:</h2>
         <input type="number" name="s1" placeholder="Enter first side">
         <input type="number" name="s2" placeholder="Enter second side">
-        <br></br>
 
         <h2>Count all the ones in the binary:</h2>
         <input type="number" name="int" placeholder="Enter an integer">

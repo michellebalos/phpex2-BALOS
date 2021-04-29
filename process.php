@@ -44,19 +44,18 @@ class Sas
 {
     function sassy($sastry)
     {
-        while($sastry > 0){
+        if($sastry > 0){
             $sn = ($sastry . $sastry + 1);
-            do{
+            $sn = sqrt($sn);
                 if ($sn == floor($sn))
                 {
-                    return "- TRUE, $sn is a perfect square.";
+                    return "- TRUE, the sastry of $sastry is a perfect square.";
                 }
                 else
                 {
-                    return "- FALSE, $sn is not perfect square.";
+                    return "- FALSE, the sastry of $sastry is not perfect square.";
                 }
-            }
-            while($sn = sqrt($sn));
+            // while($sn = ($sastry . $sastry + 1););
         }
         
     }
